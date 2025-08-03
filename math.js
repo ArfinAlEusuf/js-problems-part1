@@ -15,3 +15,7 @@ console.log(Math.PI);
 console.log(Math.abs(10-5));
 console.log(Math.round(2.25));
 console.log(Math.round(2.85));
+console.log(Math.floor(2.85));
+console.log(Math.ceil(2.11));
+
+
