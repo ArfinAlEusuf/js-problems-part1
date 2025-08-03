@@ -25,4 +25,14 @@ function mileToKillometer (mile){
     return kilo;
 }
 const killo= mileToKillometer(5);
-console.log(killo);
+// console.log(killo);
+
+// kilomerer
+
+function kiloMeterToMiles(kilo){
+    const mile = kilo* 0.621371;
+    return(mile);
+}
+
+const mile = kiloMeterToMiles(24);
+console.log(mile);
