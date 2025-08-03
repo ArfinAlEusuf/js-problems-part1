@@ -9,11 +9,12 @@ function inchToFeet(inch){
 function inchToFeet2(inch){
     const feetFraction = inch/12;
     const feetNumber = parseInt(feetFraction);
-    const num = feetNumber * 12
-    const inchNumber = inch - num;
-    console.log(feetNumber, inchNumber)
+    const inchRemaining  = inch % 12;
+    const result = feetNumber+ ' ft '+ inchRemaining + ' inch ';
+    return result;
 }
 
 const shovoHeight = inchToFeet(75);
 // console.log(shovoHeight);
 const shovoHeight2 = inchToFeet2(75);
+console.log(shovoHeight2);
